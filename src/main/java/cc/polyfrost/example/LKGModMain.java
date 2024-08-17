@@ -1,0 +1,43 @@
+package cc.polyfrost.example;
+
+import cc.polyfrost.example.command.CommandManager;
+import cc.polyfrost.example.command.ListCommands;
+import cc.polyfrost.example.command.coord.ListCoords;
+import cc.polyfrost.example.config.Config;
+import cc.polyfrost.example.command.coord.DelCoords;
+import cc.polyfrost.example.command.coord.SaveCoords;
+//import cc.polyfrost.example.command.startCommands;
+import cc.polyfrost.oneconfig.events.event.InitializationEvent;
+import net.minecraftforge.client.ClientCommandHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+
+/**
+ * The entrypoint of the Example Mod that initializes it.
+ *
+ * @see Mod
+ * @see InitializationEvent
+ */
+@Mod(modid = LKGModMain.MODID, name = LKGModMain.NAME, version = LKGModMain.VERSION)
+public class LKGModMain {
+    public static final String MODID = "@ID@";
+    public static final String NAME = "@NAME@";
+    public static final String VERSION = "@VER@";
+    // Sets the variables from `gradle.properties`. See the `blossom` config in `build.gradle.kts`.
+    @Mod.Instance(MODID)
+    public static LKGModMain INSTANCE; // Adds the instance of the mod, so we can access other variables.
+    public static Config config;
+
+    // Register the config and commands.
+    @Mod.EventHandler
+    public void onInit(FMLInitializationEvent event) {
+        config = new Config();
+//        startCommands = new startCommands();
+        cc.polyfrost.oneconfig.utils.commands.CommandManager.INSTANCE.registerCommand(new CommandManager());
+//        startCommands.onInit();
+        ClientCommandHandler.instance.registerCommand(new SaveCoords());
+        ClientCommandHandler.instance.registerCommand(new DelCoords());
+        ClientCommandHandler.instance.registerCommand(new ListCommands());
+        ClientCommandHandler.instance.registerCommand(new ListCoords());
+    }
+}
