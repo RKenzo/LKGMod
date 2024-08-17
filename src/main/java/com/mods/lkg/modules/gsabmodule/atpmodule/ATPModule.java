@@ -1,6 +1,6 @@
-package cc.polyfrost.example.modules.gsabmodule.atpmodule;
+package com.mods.lkg.modules.gsabmodule.atpmodule;
 
-import cc.polyfrost.example.modules.Module;
+import com.mods.lkg.modules.Module;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;

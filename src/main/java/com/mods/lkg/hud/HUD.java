@@ -1,6 +1,6 @@
-package cc.polyfrost.example.hud;
+package com.mods.lkg.hud;
 
-import cc.polyfrost.example.config.Config;
+import com.mods.lkg.config.Config;
 import cc.polyfrost.oneconfig.hud.SingleTextHud;
 
 /**

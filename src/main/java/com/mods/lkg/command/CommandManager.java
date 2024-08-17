@@ -1,6 +1,6 @@
-package cc.polyfrost.example.command;
+package com.mods.lkg.command;
 
-import cc.polyfrost.example.LKGModMain;
+import com.mods.lkg.LKGModMain;
 import cc.polyfrost.oneconfig.utils.commands.annotations.Command;
 import cc.polyfrost.oneconfig.utils.commands.annotations.Main;
 

@@ -1,9 +1,9 @@
-package cc.polyfrost.example.modules.gsabmodule;
+package com.mods.lkg.modules.gsabmodule;
 
-import cc.polyfrost.example.config.Config;
-import cc.polyfrost.example.modules.gsabmodule.atpmodule.ATPModule;
-import cc.polyfrost.example.modules.messagemanager.MMModule;
-import cc.polyfrost.example.modules.Module;
+import com.mods.lkg.config.Config;
+import com.mods.lkg.modules.gsabmodule.atpmodule.ATPModule;
+import com.mods.lkg.modules.messagemanager.MMModule;
+import com.mods.lkg.modules.Module;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;

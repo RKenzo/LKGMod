@@ -1,7 +1,7 @@
-package cc.polyfrost.example.config;
+package com.mods.lkg.config;
 
-import cc.polyfrost.example.LKGModMain;
-import cc.polyfrost.example.modules.gsabmodule.GSABModule;
+import com.mods.lkg.LKGModMain;
+import com.mods.lkg.modules.gsabmodule.GSABModule;
 //import cc.polyfrost.example.modules.teleport.AutoTeleport;
 import cc.polyfrost.oneconfig.config.annotations.Checkbox;
 import cc.polyfrost.oneconfig.config.annotations.KeyBind;

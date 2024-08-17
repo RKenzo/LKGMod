@@ -1,6 +1,6 @@
-package cc.polyfrost.example.command;
+package com.mods.lkg.command;
 
-import cc.polyfrost.example.modules.messagemanager.MMModule;
+import com.mods.lkg.modules.messagemanager.MMModule;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;

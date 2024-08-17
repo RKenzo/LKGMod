@@ -1,4 +1,4 @@
-package cc.polyfrost.example.modules;
+package com.mods.lkg.modules;
 
 import net.minecraftforge.common.MinecraftForge;
 

@@ -1,4 +1,4 @@
-package cc.polyfrost.example.command.coord;
+package com.mods.lkg.command.coord;
 
 import net.minecraft.util.BlockPos;
 

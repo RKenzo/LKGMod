@@ -1,11 +1,11 @@
-package cc.polyfrost.example;
+package com.mods.lkg;
 
-import cc.polyfrost.example.command.CommandManager;
-import cc.polyfrost.example.command.ListCommands;
-import cc.polyfrost.example.command.coord.ListCoords;
-import cc.polyfrost.example.config.Config;
-import cc.polyfrost.example.command.coord.DelCoords;
-import cc.polyfrost.example.command.coord.SaveCoords;
+import com.mods.lkg.command.CommandManager;
+import com.mods.lkg.command.ListCommands;
+import com.mods.lkg.command.coord.ListCoords;
+import com.mods.lkg.config.Config;
+import com.mods.lkg.command.coord.DelCoords;
+import com.mods.lkg.command.coord.SaveCoords;
 //import cc.polyfrost.example.command.startCommands;
 import cc.polyfrost.oneconfig.events.event.InitializationEvent;
 import net.minecraftforge.client.ClientCommandHandler;

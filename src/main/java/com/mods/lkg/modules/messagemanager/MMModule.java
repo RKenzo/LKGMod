@@ -1,4 +1,4 @@
-package cc.polyfrost.example.modules.messagemanager;
+package com.mods.lkg.modules.messagemanager;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ChatComponentText;

@@ -1,7 +1,7 @@
-package cc.polyfrost.example.command.coord;
+package com.mods.lkg.command.coord;
 
 
-import cc.polyfrost.example.modules.messagemanager.MMModule;
+import com.mods.lkg.modules.messagemanager.MMModule;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
